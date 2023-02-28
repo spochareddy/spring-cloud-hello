@@ -242,7 +242,7 @@ pipeline {
     stage('Quality Gate') {
       steps {
         container('ubuntu') {
-     //    qualityGates()
+         qualityGates()
         }
       }
     }
